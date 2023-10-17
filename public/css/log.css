@@ -1,0 +1,40 @@
+/* Estilo para el contenedor del checkbox */
+#check {
+    display: flex; /* Utiliza flexbox para centrar verticalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+    margin-bottom: 10px; /* Agrega espacio debajo del grupo de formulario */
+}
+
+/* Ajusta el espacio entre la etiqueta y el checkbox */
+#check label {
+    margin-left: 10px; /* Agrega espacio entre la etiqueta y el checkbox */
+}
+
+/* Estilo para el checkbox en sí */
+#check input[type="checkbox"] {
+    margin: 0; /* Restaura los márgenes del checkbox por defecto */
+}
+
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
